@@ -50,12 +50,14 @@ public class ProductoController {
         }*/
 
         //Add block for simulate a timeout
+       /*
+       //Add code for simulate timeout
         try {
             Thread.sleep(3000L);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
-
+        */
         return producto;
     }
 
