@@ -49,6 +49,13 @@ public class ProductoController {
             throw new RuntimeException("no se pudo cargar el producto");
         }*/
 
+        //Add block for simulate a timeout
+        try {
+            Thread.sleep(3000L);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+
         return producto;
     }
 
